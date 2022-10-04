@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+	int a=1,b=1,c=1,n,i;
+	printf("\n enter n :");
+	scanf("%d",&n);
+	printf("%d\t%d\t",b,c);
+//	for(i=1;i<n-1;i=i+2)
+	i=1;
+	do
+	{
+		a=b+c;
+		b=c;
+		c=a;
+		printf("%d\t%",a);
+		i=i+2;
+	}while(i<n-1);
+	return 0;
+}
