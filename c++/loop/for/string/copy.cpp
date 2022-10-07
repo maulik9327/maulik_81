@@ -4,8 +4,11 @@ using namespace std;
 int main()
 {
 	string str1,str2;
+	int i;
 	cout<<"Enter string :";
 	getline(cin,str1);
+	for(i=0;str1!='\0';i++);
+	cout<<"\n str Lenghth is : \n"<<i;
 	strcpy(str2,str1);
 	cout<<"str2 :"<<str2;
 
